@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    background: #b92b27;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: sans-serif;
+}
+
+/*Cabezera del documento*/
+.first-header {
+    color: white;
+    border: 2px solid black;
+    background: #23074d;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    margin: 20px;
+    transition: 2s;
+    display: flex;
+    padding: 10px;
+}
+.first-header ul {
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    margin-right: 20px;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;;
+}
+.first-header h1 {
+    margin-left: 20px;
+    justify-content: center;
+    color: white;
+}
+.first-header li {
+    text-decoration: none;
+    list-style: none;
+    padding-top: 20px;
+}
+
+.first-header a {
+    text-decoration: none;
+    color: white;
+}
+
+.first-header a:hover {
+    text-decoration: underline;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.7s;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*Primera seccion*/
+
+.first-section  {
+    color: white;
+    transition: 2s;
+    
+}
+.first-section h2 {
+    border: 2px solid black;
+    padding: 20px;
+    transition: 2s;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 20px;
+    border-radius: 20px;
+}
+.first-section img {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+}
+.first-section img:hover {
+    transition: 0.6s;
+    box-shadow: 0 0 15px 10px #64bfc2;
+    display: flex;
+}
+.first-section figcaption {
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.first-section figcaption:hover {
+    text-decoration: underline;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.7s;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.first-section p {
+    margin: 25px;
+    font-size: 17px;
+}
+
+.first-section aside {
+    margin: 20px;
+    border: 2px solid black;
+    margin-left: 20px;
+    margin-right: 55%;
+    font-style: italic;
+    padding: 15px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 20px;
+    transition: 2s;
+}
+
+hr {
+    transition: 2s;
+    color: #1565C0;
+    padding: 3px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 10px;
+    border: 2px transparent;
+}
+
+.second-section {
+    color: white;
+    margin: 20px;
+}
+
+.second-section iframe {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+.second-section figcaption {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+}
+.second-section iframe:hover {
+    transition: 0.6s;
+    box-shadow: 0 0 15px 10px #f82121;
+    display: flex;
+}
+.second-section figcaption:hover {
+    text-decoration: underline;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.7s;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.second-section h2 {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 2s;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
