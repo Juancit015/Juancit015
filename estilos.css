@@ -26,7 +26,7 @@ body {
     margin-right: 20px;
     flex-direction: row;
     align-items: center;
-    text-decoration: none;;
+    text-decoration: none;
 }
 .first-header h1 {
     margin-left: 20px;
@@ -153,7 +153,9 @@ hr {
 }
 .second-section iframe:hover {
     transition: 0.6s;
-    box-shadow: 0 0 15px 10px #f82121;
+    /*15 equivale al defuminado y 10 a el tamaño de el efecto*/
+    box-shadow: 0px 0px 10px 15px #f82121;
+    transition: 0.7s;
     display: flex;
 }
 .second-section figcaption:hover {
@@ -177,4 +179,453 @@ hr {
     background: #de6161;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.second-section p {
+    font-size: 17px;
+    margin-left: 3px;
+}
+.second-section p > strong > a {
+    text-decoration: underline;
+    color: white;
+}
+
+/*Tercera seccion*/
+.third-section {
+    color: white;
+    margin: 20px;
+}
+.third-section h2 {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 2s;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.third-section p {
+    margin: 20px;
+    margin-top: 40px;
+    border: 2px solid black;
+    margin-right: 55%;
+    padding: 20px;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161);
+    border-radius: 20px;
+    font-weight: bold;
+}
+.third-section .accion {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 60%;
+    margin-top: 30px;
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+}
+.third-section .accion h3 {
+    padding-left: 40%;
+}
+.third-section .accion:hover{
+    box-shadow: 0px 0px 15px 10px rgb(248, 139, 50);
+    transition: 0.6s;
+}
+.third-section .accion li {
+    list-style: none;
+}
+.third-section .accion a {
+    text-decoration: none;
+    color: white;
+}
+.third-section .accion li:hover {
+    border: 2px solid black;
+    transition: 0.7s;
+    margin-right: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: underline;
+}
+
+
+
+.third-section .aventura {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    margin-left: 60%;
+    flex-direction: column;
+    margin-right: 20px;
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+}
+.third-section .aventura h3 {
+    padding-left: 40%;
+}
+.third-section .aventura:hover{
+    box-shadow: 0px 0px 15px 10px rgb(248, 139, 50);
+    transition: 0.6s;
+}
+.third-section .aventura li {
+    list-style: none;
+}
+.third-section .aventura a {
+    text-decoration: none;
+    color: white;
+}
+.third-section .aventura li:hover {
+    border: 2px solid black;
+    transition: 0.7s;
+    margin-right: 65%;
+    border-radius: 10px;
+    padding: 5px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: underline;
+}
+
+
+.third-section .RPG {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin-left: 20px;
+    margin-right: 60%;
+    margin-top: 30px;
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+}
+.third-section .RPG h3 {
+    padding-left: 40%;
+}
+.third-section .RPG:hover{
+    box-shadow: 0px 0px 15px 10px rgb(248, 139, 50);
+    transition: 0.6s;
+}
+.third-section .RPG li {
+    list-style: none;
+}
+.third-section .RPG a {
+    text-decoration: none;
+    color: white;
+}
+.third-section .RPG li:hover {
+    border: 2px solid black;
+    transition: 0.7s;
+    margin-right: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: underline;
+}
+
+
+.third-section .estrategia {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    margin-left: 60%;
+    flex-direction: column;
+    margin-right: 20px;
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+}
+.third-section .estrategia h3 {
+    padding-left: 40%;
+}
+.third-section .estrategia:hover{
+    box-shadow: 0px 0px 15px 10px rgb(248, 139, 50);
+    transition: 0.6s;
+}
+.third-section .estrategia li {
+    list-style: none;
+}
+.third-section .estrategia a {
+    text-decoration: none;
+    color: white;
+}
+.third-section .estrategia li:hover {
+    border: 2px solid black;
+    transition: 0.7s;
+    margin-right: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: underline;
+}
+
+
+.third-section .deporte {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 60%;
+    margin-top: 30px;
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+}
+.third-section .deporte h3 {
+    padding-left: 40%;
+}
+.third-section .deporte:hover{
+    box-shadow: 0px 0px 15px 10px rgb(248, 139, 50);
+    transition: 0.6s;
+}
+.third-section .deporte li {
+    list-style: none;
+}
+.third-section .deporte a {
+    text-decoration: none;
+    color: white;
+}
+.third-section .deporte li:hover {
+    border: 2px solid black;
+    transition: 0.7s;
+    margin-right: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: underline;
+}
+
+
+
+.third-section .horror {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    margin-left: 60%;
+    flex-direction: column;
+    margin-right: 20px;
+    background: #D38312;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #A83279, #D38312);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #A83279, #D38312); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+}
+.third-section .horror:hover{
+    box-shadow: 0px 0px 15px 10px rgb(248, 139, 50);
+    transition: 0.6s;
+}
+
+.third-section .horror h3 {
+    padding-left: 40%;
+}
+.third-section .horror li {
+    list-style: none;
+}
+.third-section .horror a {
+    text-decoration: none;
+    color: white;
+}
+.third-section .horror li:hover {
+    border: 2px solid black;
+    transition: 0.7s;
+    margin-right: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-decoration: underline;
+}
+
+.juegos-vendidos h2 {
+    border: 2px solid black;
+    padding: 20px;
+    transition: 2s;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+}
+.juegos-vendidos {
+    color: white;
+    margin: 20px;
+}
+.juegos-vendidos p {
+    margin-left: 20px;
+    font-size: 18px;
+}
+.juegos-vendidos ol {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    transition: 2s;
+}
+.juegos-vendidos figure {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.fun-fact {
+    color: whitesmoke;
+    margin: 20px;
+}
+.fun-fact h2 {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+}
+.fun-fact p {
+    font-size: medium;
+}
+
+
+
+.historia {
+    color: white;
+    margin: 20px;
+}
+.historia h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    background: #de6161;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2657eb, #de6161);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2657eb, #de6161); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: 2s;
+    padding: 20px;
+    margin-left: 30%; 
+    margin-right: 30%;  
+}
+.historia iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.historia figcaption {
+
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 20px;
+    font-style: italic;
+}
+.historia figcaption:hover {
+    transition: 2s;
+    padding: 5px;
+    transition: 0.7s;
+    background: #4568DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+
+/*Final*/
+
+.form-final {
+    color: whitesmoke;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 60px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 80px;
+    border-radius: 20px;
+    transition: 2s;
+    background: #6025F5;
+    background: -webkit-linear-gradient(to top, #FF5555, #6025F5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #FF5555, #6025F5);
+}
+.form-final h2 {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.form-final .name {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 20px;
+}
+.name input, .email input , .genero input {
+    padding: 5px;
+}
+
+.form-final label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.form-final .email {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.form-final .genero {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+    font-weight: 800;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+footer {
+    color: whitesmoke;
+    font-style: italic;
+    text-align: center;
 }
